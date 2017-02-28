@@ -18,6 +18,10 @@ public class MoodList {
         moods = new ArrayList<Mood>();
     }
 
+    public int size(){
+        return moods.size();
+    }
+
     public void addMood(Mood mood) {
         moods.add(mood);
     }
@@ -33,9 +37,9 @@ public class MoodList {
     public void deleteMood(Mood mood) {
     }
 
-    public Mood getMood(int i) {
-        return null;
-    }
+//    public Mood getMood(int i) {
+//        return null;
+//    }
 
     //fix for submission
 //    public ArrayList<Mood> getMoodList() {
