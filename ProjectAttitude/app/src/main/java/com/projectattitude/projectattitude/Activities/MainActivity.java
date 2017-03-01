@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override
 
-            /*When a mood is added to the DB, it will then add it to the moodAdapter, updating
+            /**When a mood is added to the DB, it will then add it to the moodAdapter, updating
             the local moodList and listview in mainactivity Simultaneously
              */
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
